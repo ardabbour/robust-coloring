@@ -1,0 +1,12 @@
+clingo version 5.2.2
+Reading from ...bust-coloring/instances/2-FullIns_5.lp ...
+UNKNOWN
+
+INTERRUPTED  : 1
+Models       : 0+
+Calls        : 1
+Time         : 13.647s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 13.613s
+Threads      : 20       (Winner: 0)
+
+elapsed time for 2-FullIns_5 was 13.679929703 seconds

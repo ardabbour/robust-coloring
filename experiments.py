@@ -87,8 +87,9 @@ def generate_instances():
     for _, instance in enumerate(instances):
         graph_name = re.search('graphs/(.+?).col', instance).group(1)
         max_vertex, edges = ig.extract_info(instance)
-        costs_to_write = ig.get_costs(max_vertex, edges, rand=True, max_cost=10,
-                                      const_cost=False, max_vertices=0)
+        costs_to_write = ig.get_costs(max_vertex, edges, rand=False, seed=None,
+                                      max_cost=10, const_cost=False,
+                                      prod_cost=True, max_vertices=0)
         ig.write_result('instances/{}.lp'.format(graph_name),
                         max_vertex, edges, costs_to_write)
 

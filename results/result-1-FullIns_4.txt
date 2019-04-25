@@ -1,0 +1,135 @@
+clingo version 5.2.2
+Reading from ...bust-coloring/instances/1-FullIns_4.lp ...
+Solving...
+Optimization: 13 910004
+Optimization: 12 989819
+Optimization: 12 912809
+Optimization: 12 860261
+Optimization: 12 848951
+Optimization: 11 2904338
+Optimization: 11 793744
+Optimization: 10 2914882
+Optimization: 10 2912227
+Optimization: 10 2774711
+Optimization: 9 3135528
+Optimization: 5 4140783
+Optimization: 5 3994017
+Optimization: 5 3991943
+Optimization: 5 3805863
+Progression : [1;5] (Error: 4)
+Optimization: 5 3805217
+Optimization: 5 3773811
+Optimization: 5 3764771
+Optimization: 5 3632523
+Optimization: 5 3630483
+Optimization: 5 3505890
+Optimization: 5 3499938
+Optimization: 5 3499650
+Optimization: 5 3466473
+Optimization: 5 3458765
+Optimization: 5 3458208
+Optimization: 5 3327512
+Optimization: 5 3170879
+Optimization: 5 3055670
+Optimization: 5 3047292
+Optimization: 5 3041292
+Optimization: 5 3027479
+Optimization: 5 3023108
+Optimization: 5 2939722
+Optimization: 5 2925792
+Optimization: 5 2913492
+Optimization: 5 2910815
+Optimization: 5 2908314
+Optimization: 5 2890944
+Optimization: 5 2879598
+Optimization: 5 2776874
+Optimization: 5 2775312
+Optimization: 5 2770638
+Optimization: 5 2769084
+Optimization: 5 2750238
+Optimization: 5 2652638
+Optimization: 5 2651244
+Optimization: 5 2649852
+Optimization: 5 2589008
+Optimization: 5 2571478
+Optimization: 5 2563650
+Optimization: 5 2546204
+Optimization: 5 2544972
+Optimization: 5 2542514
+Optimization: 5 2512192
+Optimization: 5 2482180
+Optimization: 5 2474270
+Optimization: 5 2451822
+Optimization: 5 2414735
+Optimization: 5 2388444
+Optimization: 5 2369103
+Optimization: 5 2357830
+Optimization: 5 2350350
+Optimization: 5 2330508
+Optimization: 5 2307938
+Optimization: 5 2306718
+Optimization: 5 2292078
+Optimization: 5 2282040
+Optimization: 5 2274560
+Optimization: 5 2273658
+Optimization: 5 2254860
+Optimization: 5 2236194
+Optimization: 5 2235230
+Optimization: 5 2224494
+Optimization: 5 2215672
+Optimization: 5 2208192
+Optimization: 5 2151358
+Optimization: 5 2149096
+Optimization: 5 2112730
+Optimization: 5 2106814
+Optimization: 5 2061748
+Optimization: 5 2044552
+Optimization: 5 2011588
+Optimization: 5 2007900
+Optimization: 5 1986498
+Optimization: 5 1983663
+Optimization: 5 1975995
+Optimization: 5 1970275
+Optimization: 5 1962947
+Optimization: 5 1962795
+Optimization: 5 1956450
+Optimization: 5 1956120
+Optimization: 5 1953006
+Optimization: 5 1952732
+Optimization: 5 1950663
+Optimization: 5 1950659
+Optimization: 5 1950570
+Optimization: 5 1852548
+Optimization: 5 1842898
+Optimization: 5 1842286
+Progression : [2;5] (Error: 1.5)
+Optimization: 5 1840878
+Optimization: 5 1831998
+Optimization: 5 1831310
+Optimization: 5 1830685
+Optimization: 5 1830531
+Optimization: 5 1823024
+Optimization: 5 1821016
+Optimization: 5 1820804
+Optimization: 5 1814024
+Optimization: 5 1813600
+Optimization: 5 1813532
+Optimization: 5 1813062
+Optimization: 5 1811878
+Optimization: 5 1811658
+Optimization: 5 1808470
+Optimization: 5 1807978
+Optimization: 5 1807752
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 117+
+  Optimum    : unknown
+Optimization : 5 1807752
+Bounds       : [2;5] [0;1807752]
+Calls        : 1
+Time         : 16.030s (Solving: 15.18s 1st Model: 0.33s Unsat: 0.00s)
+CPU Time     : 276.019s
+Threads      : 20       (Winner: 20)
+
+elapsed time for 1-FullIns_4 was 17.053785917 seconds

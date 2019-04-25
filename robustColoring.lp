@@ -16,5 +16,5 @@ penalty(X,Y,P) :- color(X,C), color(Y,C), cost(X,Y,P).
 :~ penalty(X,Y,P). [P@1,X]
 
 % Display
-#show color/2.
-#show penalty/3.
+% #show color/2.
+% #show penalty/3.

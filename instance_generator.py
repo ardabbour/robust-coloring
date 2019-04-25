@@ -16,7 +16,7 @@ import itertools
 import random
 
 
-def get_costs(max_vertex, edges, rand, seed, const_cost, max_vertices, max_cost):
+def get_costs(max_vertex, edges, rand, seed, const_cost, prod_cost, max_vertices, max_cost):
     """Generates costs for the non-adjacent vertices."""
 
 
@@ -26,21 +26,26 @@ def get_costs(max_vertex, edges, rand, seed, const_cost, max_vertices, max_cost)
 
     all_pairs = set(itertools.combinations(range(1, max_vertex+1), 2))
     non_adjacent_pairs = all_pairs.difference(edges)
+    # print(non_adjacent_pairs)
     costs_to_write = []
     if rand:
         if max_vertices > 0:
-            non_adjacent_pairs = random.choices(
-                non_adjacent_pairs, max_vertices)
+            non_adjacent_pairs = random.choices(non_adjacent_pairs, max_vertices)
         for pair in non_adjacent_pairs:
             costs_to_write.append('cost({},{},{}).\n'.format(
                 pair[0], pair[1], random.randint(1, max_cost)))
-    else:
-        assert const_cost > 0
+    elif const_cost > 0:
         if max_vertices > 0:
             non_adjacent_pairs = non_adjacent_pairs[:max_vertices]
-            for pair in non_adjacent_pairs:
-                costs_to_write.append('cost({},{},{}).\n'.format(
-                    pair[0], pair[1], const_cost))
+        for pair in non_adjacent_pairs:
+            costs_to_write.append('cost({},{},{}).\n'.format(
+                pair[0], pair[1], const_cost))
+    elif prod_cost:
+        if max_vertices > 0:
+            non_adjacent_pairs = non_adjacent_pairs[:max_vertices]
+        for pair in non_adjacent_pairs:
+            costs_to_write.append('cost({},{},{}).\n'.format(
+                pair[0], pair[1], pair[0]*pair[1]))
 
     return costs_to_write
 
@@ -85,16 +90,20 @@ if __name__ == "__main__":
                         help='Output file path.',
                         type=str)
     PARSER.add_argument('--random_costs', '-rc',
-                        default=1,
+                        default=0,
                         help='Define random costs for non-adjacent vertices.',
                         type=int)
     PARSER.add_argument('--random_seed', '-rs',
                         default=-1,
                         help='Define a seed. Use -1 to not use a seed. Only pass integers.',
                         type=int)
-    PARSER.add_argument('--const_cost', '-c',
+    PARSER.add_argument('--const_cost', '-cc',
                         default=0,
                         help='Define a const. cost for non-adjacent vertices.',
+                        type=int)
+    PARSER.add_argument('--prod_cost', '-pc',
+                        default=0,
+                        help='Define the cost for non-adjacent vertices as the product of their indices.',
                         type=int)
     PARSER.add_argument('--max_vertices', '-mv',
                         default=-1,
@@ -112,6 +121,7 @@ if __name__ == "__main__":
                                rand=ARGS.random_costs,
                                seed=ARGS.random_seed,
                                const_cost=ARGS.const_cost,
+                               prod_cost=ARGS.prod_cost,
                                max_vertices=ARGS.max_vertices,
                                max_cost=ARGS.max_cost)
     write_result(ARGS.output, MAX_VERTEX, EDGES, COSTS_TO_WRITE)

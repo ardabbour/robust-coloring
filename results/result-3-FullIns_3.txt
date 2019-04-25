@@ -1,0 +1,36 @@
+clingo version 5.2.2
+Reading from ...bust-coloring/instances/3-FullIns_3.lp ...
+Solving...
+Optimization: 11 559346
+Optimization: 10 595368
+Optimization: 10 559842
+Optimization: 10 547783
+Optimization: 10 547473
+Optimization: 10 544962
+Optimization: 10 544574
+Optimization: 10 544564
+Optimization: 10 544514
+Optimization: 10 543215
+Optimization: 10 542595
+Optimization: 10 542387
+Optimization: 10 536735
+Optimization: 10 536714
+Optimization: 10 536569
+Optimization: 10 534118
+Optimization: 10 533686
+Optimization: 10 533066
+Optimization: 10 530274
+Optimization: 10 528972
+Optimization: 10 528602
+SATISFIABLE
+
+INTERRUPTED  : 1
+Models       : 21+
+  Optimum    : unknown
+Optimization : 10 528602
+Calls        : 1
+Time         : 0.836s (Solving: 0.30s 1st Model: 0.23s Unsat: 0.00s)
+CPU Time     : 4.329s
+Threads      : 20       (Winner: 20)
+
+elapsed time for 3-FullIns_3 was 1.149925000 seconds
