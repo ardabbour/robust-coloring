@@ -8,7 +8,7 @@
     Author: Abdul Rahman Dabbour
     Affiliation: CogRobo Lab, FENS, Sabanci University
     License: GNU General Public License v3.0
-    Repository: https://github.com/ardabbour/grmmo/
+    Repository: https://github.com/ardabbour/robust-coloring/
 """
 
 import argparse
@@ -16,9 +16,52 @@ import itertools
 import random
 
 
+K_VALUES = {
+    'myciel3': [6, 8],
+    'myciel4': [8, 10],
+    'queen5_5': [8, 10],
+    '1-FullIns_3': [6, 8],
+    'queen6_6': [11, 14],
+    '2-Insertions_3': [6, 8],
+    'myciel5': [9, 12],
+    'queen7_7': [11, 14],
+    '2-FullIns_3': [8, 10],
+    '3-Insertions_3': [6, 8],
+    'queen8_8': [14, 18],
+    '1-Insertions_4': [8, 10],
+    'huck': [17, 22],
+    '4-Insertions_3': [6, 8],
+    '3-FullIns_3': [9, 12],
+    'jean': [15, 20],
+    'queen9_9': [15, 20],
+    'david': [17, 22],
+    'mug88_1': [6, 8],
+    'mug88_25': [6, 8],
+    '1-FullIns_4': [8, 10],
+    'myciel6': [11, 14],
+    'queen8_12': [18, 24],
+    'mug100_1': [6, 8],
+    'mug100_25': [6, 8],
+    'queen10_10': [17, 22],
+    '4-FullIns_3': [11, 14],
+    'games120': [14, 18],
+    'queen11_11': [17, 22],
+    'DSJC125_1': [8, 10],
+    'DSJC125_5': [26, 34],
+    'DSJC125_9': [66, 88],
+    'miles1000': [63, 84],
+    'miles1500': [110, 156],
+    'miles250': [12, 16],
+    'miles500': [30, 40],
+    'miles750': [47, 62],
+    'anna': [17, 22],
+    'queen12_12': [18, 24],
+    '2-Insertions_4': [6, 8],
+}
+
+
 def get_costs(max_vertex, edges, rand, seed, const_cost, prod_cost, max_vertices, max_cost):
     """Generates costs for the non-adjacent vertices."""
-
 
     if seed == -1:
         seed = None
@@ -26,11 +69,11 @@ def get_costs(max_vertex, edges, rand, seed, const_cost, prod_cost, max_vertices
 
     all_pairs = set(itertools.combinations(range(1, max_vertex+1), 2))
     non_adjacent_pairs = all_pairs.difference(edges)
-    # print(non_adjacent_pairs)
     costs_to_write = []
     if rand:
         if max_vertices > 0:
-            non_adjacent_pairs = random.choices(non_adjacent_pairs, max_vertices)
+            non_adjacent_pairs = random.choices(
+                non_adjacent_pairs, max_vertices)
         for pair in non_adjacent_pairs:
             costs_to_write.append('cost({},{},{}).\n'.format(
                 pair[0], pair[1], random.randint(1, max_cost)))
@@ -65,19 +108,25 @@ def extract_info(input_path):
     return max_vertex, edges
 
 
-def write_result(output_path, max_vertex, edges, costs_to_write):
+def write_result(output_path, no_of_colors, max_vertex, edges, costs_to_write):
     """Dumps all the information (graph description + costs) to a file."""
 
     edges_to_write = ['edge({},{}).\n'.format(x, y) for (x, y) in edges]
     with open(output_path, 'w') as f:
-        f.write('% Graph description\n')
+        f.write('% Number of colors\n')
+        f.write('#const k = {}.\n'.format(no_of_colors))
+        f.write('\n')
+        f.write('% Vertices\n')
         f.write('vertex(1..{}).\n'.format(max_vertex))
+        f.write('\n')
+        f.write('% Edges\n')
         f.writelines(edges_to_write)
         f.write('\n')
-        f.write('% Define costs\n')
+        f.write('% Costs\n')
         f.writelines(costs_to_write)
 
     return output_path
+
 
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(

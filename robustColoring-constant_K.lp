@@ -8,7 +8,7 @@
 penalty(X,Y,P) :- color(X,C), color(Y,C), cost(X,Y,P).
 
 % Minimize the penalty.
-:~ penalty(X,Y,P). [P@1,X]
+:~ penalty(X,Y,P). [P@1,X,Y]
 
 % Display
 % #show color/2.
