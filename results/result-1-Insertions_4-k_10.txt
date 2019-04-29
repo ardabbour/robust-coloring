@@ -1,0 +1,100 @@
+clingo version 5.2.2
+Reading from ...oring/instances/1-Insertions_4-k_10.lp ...
+Solving...
+Optimization: 511433
+Optimization: 499782
+Optimization: 479469
+Optimization: 466209
+Optimization: 427464
+Optimization: 425070
+Optimization: 425012
+Optimization: 425000
+Optimization: 424811
+Optimization: 392418
+Optimization: 390339
+Optimization: 390338
+Optimization: 373680
+Optimization: 336790
+Optimization: 313550
+Optimization: 313328
+Optimization: 312773
+Optimization: 310538
+Optimization: 309572
+Optimization: 309112
+Optimization: 305552
+Optimization: 304402
+Optimization: 293990
+Optimization: 292840
+Optimization: 292809
+Optimization: 292620
+Optimization: 292533
+Optimization: 292398
+Optimization: 291642
+Optimization: 291177
+Optimization: 290770
+Optimization: 290600
+Optimization: 290378
+Optimization: 288458
+Optimization: 288444
+Optimization: 286150
+Optimization: 283932
+Optimization: 281638
+Optimization: 276177
+Optimization: 275622
+Optimization: 275449
+Optimization: 274684
+Optimization: 272760
+Optimization: 239032
+Optimization: 230732
+Optimization: 217996
+Optimization: 216988
+Optimization: 215853
+Optimization: 215259
+Optimization: 215217
+Optimization: 214400
+Optimization: 213066
+Optimization: 212997
+Optimization: 212982
+Optimization: 211732
+Optimization: 211465
+Optimization: 211342
+Optimization: 211243
+Optimization: 211109
+Optimization: 210518
+Optimization: 210284
+Optimization: 210161
+Optimization: 209732
+Optimization: 209644
+Optimization: 209416
+Optimization: 209288
+Optimization: 209215
+Optimization: 209211
+Optimization: 209135
+Optimization: 209063
+Optimization: 209006
+Optimization: 208982
+Optimization: 208910
+Optimization: 208893
+Optimization: 208884
+Optimization: 208878
+Optimization: 208864
+Optimization: 208848
+Optimization: 208566
+Optimization: 208542
+Optimization: 208540
+Optimization: 208455
+Optimization: 208431
+Optimization: 208429
+Optimization: 208428
+Optimization: 208425
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 86+
+  Optimum    : unknown
+Optimization : 208425
+Calls        : 1
+Time         : 3600.067s (Solving: 3600.01s 1st Model: 0.04s Unsat: 0.00s)
+CPU Time     : 71986.499s
+Threads      : 20       (Winner: 20)
+elapsed time for 1-Insertions_4-k_10 was 3600.342283133 seconds

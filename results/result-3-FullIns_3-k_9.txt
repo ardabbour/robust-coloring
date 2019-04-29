@@ -1,0 +1,205 @@
+clingo version 5.2.2
+Reading from ...-coloring/instances/3-FullIns_3-k_9.lp ...
+Solving...
+Optimization: 1617488
+Optimization: 1617318
+Optimization: 1617136
+Optimization: 1617124
+Optimization: 1543456
+Optimization: 1543344
+Optimization: 1541558
+Optimization: 1539450
+Optimization: 1530274
+Optimization: 1530273
+Optimization: 1530170
+Optimization: 1530161
+Optimization: 603736
+Optimization: 580424
+Optimization: 573356
+Optimization: 562661
+Optimization: 561049
+Optimization: 560705
+Optimization: 560684
+Optimization: 559221
+Optimization: 559127
+Optimization: 550781
+Optimization: 547991
+Optimization: 545279
+Optimization: 540581
+Optimization: 540475
+Optimization: 530370
+Optimization: 530314
+Optimization: 530285
+Optimization: 530231
+Optimization: 530102
+Optimization: 528688
+Optimization: 528312
+Optimization: 528262
+Optimization: 527496
+Optimization: 527337
+Optimization: 527308
+Optimization: 527207
+Optimization: 526724
+Optimization: 526674
+Optimization: 526611
+Optimization: 525304
+Optimization: 525145
+Optimization: 525132
+Optimization: 525129
+Optimization: 525125
+Optimization: 525060
+Optimization: 523771
+Optimization: 523611
+Optimization: 523555
+Optimization: 523543
+Optimization: 523487
+Optimization: 523485
+Optimization: 522571
+Optimization: 522373
+Optimization: 522355
+Optimization: 522335
+Optimization: 522301
+Optimization: 522271
+Optimization: 522268
+Optimization: 522214
+Optimization: 522075
+Optimization: 522054
+Optimization: 522013
+Optimization: 522012
+Optimization: 521299
+Optimization: 519987
+Optimization: 518307
+Optimization: 518297
+Optimization: 518215
+Optimization: 518126
+Optimization: 518054
+Optimization: 518032
+Optimization: 517997
+Optimization: 517736
+Optimization: 517654
+Optimization: 517577
+Optimization: 517558
+Optimization: 517422
+Optimization: 517374
+Optimization: 517372
+Optimization: 517342
+Optimization: 517228
+Optimization: 517204
+Optimization: 517122
+Optimization: 517044
+Optimization: 517024
+Optimization: 516990
+Optimization: 516084
+Optimization: 516050
+Optimization: 516030
+Optimization: 516012
+Optimization: 515964
+Optimization: 515954
+Optimization: 515060
+Optimization: 514980
+Optimization: 514962
+Optimization: 514803
+Optimization: 514763
+Optimization: 514683
+Optimization: 514668
+Optimization: 514667
+Optimization: 514619
+Optimization: 514601
+Optimization: 514532
+Optimization: 514466
+Optimization: 514452
+Optimization: 514440
+Optimization: 514232
+Optimization: 514214
+Optimization: 514125
+Optimization: 512141
+Optimization: 512126
+Optimization: 512031
+Optimization: 509627
+Optimization: 509179
+Optimization: 508565
+Optimization: 508466
+Optimization: 508179
+Optimization: 508108
+Optimization: 506910
+Optimization: 506868
+Optimization: 506792
+Optimization: 506186
+Optimization: 506141
+Optimization: 503716
+Optimization: 502684
+Optimization: 502346
+Optimization: 501756
+Optimization: 501737
+Optimization: 501121
+Optimization: 501051
+Optimization: 499685
+Optimization: 499668
+Optimization: 499370
+Optimization: 499332
+Optimization: 498775
+Optimization: 498752
+Optimization: 498380
+Optimization: 498376
+Optimization: 497669
+Optimization: 497624
+Optimization: 497597
+Optimization: 497560
+Optimization: 497442
+Optimization: 497433
+Optimization: 497424
+Optimization: 497189
+Optimization: 497176
+Optimization: 497106
+Optimization: 497104
+Optimization: 497097
+Optimization: 497039
+Optimization: 497033
+Optimization: 497027
+Optimization: 497025
+Optimization: 497015
+Optimization: 497004
+Optimization: 496994
+Optimization: 496988
+Optimization: 496986
+Optimization: 496965
+Optimization: 496959
+Optimization: 496946
+Optimization: 496943
+Optimization: 496941
+Optimization: 496863
+Optimization: 496821
+Optimization: 496805
+Optimization: 496776
+Optimization: 496749
+Optimization: 496698
+Optimization: 496692
+Optimization: 496688
+Optimization: 496660
+Optimization: 496659
+Optimization: 496647
+Optimization: 496638
+Optimization: 496633
+Optimization: 496628
+Optimization: 496618
+Optimization: 496588
+Optimization: 496574
+Optimization: 496567
+Optimization: 496552
+Progression : [     3;496552] (Error: 165516)
+Progression : [     5;496552] (Error: 99309.4)
+Progression : [     6;496552] (Error: 82757.7)
+Optimization: 496542
+Progression : [     7;496542] (Error: 70933.6)
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 186+
+  Optimum    : unknown
+Optimization : 496542
+Bounds       : [7;496542]
+Calls        : 1
+Time         : 3600.354s (Solving: 3600.28s 1st Model: 0.06s Unsat: 0.00s)
+CPU Time     : 71985.639s
+Threads      : 20       (Winner: 20)
+elapsed time for 3-FullIns_3-k_9 was 3600.963519745 seconds

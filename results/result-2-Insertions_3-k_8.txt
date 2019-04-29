@@ -1,0 +1,604 @@
+clingo version 5.2.2
+Reading from ...loring/instances/2-Insertions_3-k_8.lp ...
+Solving...
+Optimization: 67647
+Optimization: 62275
+Optimization: 59346
+Optimization: 55750
+Optimization: 55025
+Optimization: 54764
+Optimization: 48750
+Optimization: 47975
+Optimization: 47696
+Optimization: 43508
+Optimization: 42318
+Optimization: 42057
+Optimization: 41256
+Optimization: 41228
+Optimization: 41226
+Optimization: 41202
+Optimization: 39619
+Optimization: 39340
+Optimization: 39232
+Optimization: 38422
+Optimization: 38395
+Optimization: 38243
+Optimization: 38207
+Optimization: 38131
+Optimization: 37077
+Optimization: 36368
+Optimization: 36172
+Optimization: 36116
+Optimization: 35582
+Optimization: 35566
+Optimization: 35558
+Optimization: 34553
+Optimization: 34112
+Optimization: 34076
+Optimization: 34001
+Optimization: 33982
+Optimization: 33548
+Optimization: 33380
+Optimization: 33352
+Optimization: 33332
+Optimization: 33330
+Optimization: 32830
+Optimization: 32305
+Optimization: 31843
+Optimization: 31213
+Optimization: 30960
+Optimization: 30918
+Optimization: 30666
+Optimization: 30653
+Optimization: 30425
+Optimization: 30400
+Optimization: 30293
+Optimization: 30118
+Optimization: 29951
+Optimization: 29926
+Optimization: 29901
+Optimization: 29666
+Optimization: 29640
+Optimization: 29631
+Optimization: 29337
+Optimization: 29311
+Optimization: 29251
+Optimization: 29218
+Optimization: 29090
+Optimization: 29064
+Optimization: 29055
+Optimization: 28957
+Optimization: 28918
+Optimization: 28747
+Optimization: 28738
+Optimization: 28722
+Optimization: 28713
+Optimization: 28419
+Optimization: 28385
+Optimization: 28369
+Optimization: 28321
+Optimization: 28219
+Optimization: 28194
+Optimization: 28177
+Optimization: 28117
+Optimization: 28057
+Optimization: 27873
+Optimization: 27825
+Optimization: 27676
+Optimization: 27536
+Optimization: 26975
+Optimization: 26900
+Optimization: 26176
+Optimization: 24986
+Optimization: 23896
+Optimization: 23038
+Optimization: 22957
+Optimization: 22926
+Optimization: 22921
+Optimization: 22817
+Optimization: 22806
+Optimization: 22609
+Optimization: 22585
+Optimization: 22497
+Optimization: 22481
+Optimization: 22427
+Optimization: 22337
+Optimization: 22256
+Optimization: 22254
+Optimization: 22239
+Optimization: 22234
+Optimization: 22231
+Optimization: 22217
+Optimization: 22209
+Optimization: 22202
+Optimization: 22201
+Optimization: 22198
+Optimization: 22189
+Optimization: 22173
+Optimization: 22162
+Optimization: 22140
+Optimization: 22128
+Optimization: 22125
+Progression : [    3;22125] (Error: 7374)
+Optimization: 22123
+Optimization: 22115
+Progression : [    5;22115] (Error: 4422)
+Progression : [    6;22115] (Error: 3684.83)
+Progression : [    7;22115] (Error: 3158.29)
+Optimization: 22111
+Progression : [    8;22111] (Error: 2762.88)
+Optimization: 22109
+Optimization: 22108
+Optimization: 22105
+Progression : [    9;22105] (Error: 2455.11)
+Progression : [   10;22105] (Error: 2209.5)
+Progression : [   11;22105] (Error: 2008.55)
+Progression : [   12;22105] (Error: 1841.08)
+Progression : [   13;22105] (Error: 1699.38)
+Progression : [   14;22105] (Error: 1577.93)
+Progression : [   15;22105] (Error: 1472.67)
+Progression : [   16;22105] (Error: 1380.56)
+Progression : [   17;22105] (Error: 1299.29)
+Progression : [   18;22105] (Error: 1227.06)
+Progression : [   19;22105] (Error: 1162.42)
+Progression : [   20;22105] (Error: 1104.25)
+Progression : [   21;22105] (Error: 1051.62)
+Progression : [   22;22105] (Error: 1003.77)
+Progression : [   23;22105] (Error: 960.087)
+Progression : [   24;22105] (Error: 920.042)
+Progression : [   25;22105] (Error: 883.2)
+Progression : [   26;22105] (Error: 849.192)
+Progression : [   27;22105] (Error: 817.704)
+Progression : [   28;22105] (Error: 788.464)
+Progression : [   29;22105] (Error: 761.241)
+Progression : [   30;22105] (Error: 735.833)
+Progression : [   31;22105] (Error: 712.065)
+Progression : [   32;22105] (Error: 689.781)
+Progression : [   33;22105] (Error: 668.848)
+Progression : [   34;22105] (Error: 649.147)
+Progression : [   35;22105] (Error: 630.571)
+Progression : [   36;22105] (Error: 613.028)
+Progression : [   37;22105] (Error: 596.432)
+Progression : [   38;22105] (Error: 580.711)
+Progression : [   39;22105] (Error: 565.795)
+Progression : [   40;22105] (Error: 551.625)
+Progression : [   41;22105] (Error: 538.146)
+Progression : [   42;22105] (Error: 525.31)
+Progression : [   43;22105] (Error: 513.07)
+Progression : [   44;22105] (Error: 501.386)
+Progression : [   45;22105] (Error: 490.222)
+Progression : [   46;22105] (Error: 479.543)
+Progression : [   47;22105] (Error: 469.319)
+Progression : [   48;22105] (Error: 459.521)
+Progression : [   49;22105] (Error: 450.122)
+Progression : [   50;22105] (Error: 441.1)
+Progression : [   51;22105] (Error: 432.431)
+Progression : [   52;22105] (Error: 424.096)
+Progression : [   53;22105] (Error: 416.075)
+Progression : [   54;22105] (Error: 408.352)
+Progression : [   55;22105] (Error: 400.909)
+Progression : [   56;22105] (Error: 393.732)
+Progression : [   57;22105] (Error: 386.807)
+Progression : [   58;22105] (Error: 380.121)
+Progression : [   59;22105] (Error: 373.661)
+Progression : [   60;22105] (Error: 367.417)
+Progression : [   61;22105] (Error: 361.377)
+Progression : [   62;22105] (Error: 355.532)
+Progression : [   63;22105] (Error: 349.873)
+Progression : [   64;22105] (Error: 344.391)
+Progression : [   65;22105] (Error: 339.077)
+Progression : [   66;22105] (Error: 333.924)
+Progression : [   67;22105] (Error: 328.925)
+Progression : [   68;22105] (Error: 324.074)
+Progression : [   69;22105] (Error: 319.362)
+Progression : [   70;22105] (Error: 314.786)
+Progression : [   71;22105] (Error: 310.338)
+Progression : [   72;22105] (Error: 306.014)
+Progression : [   73;22105] (Error: 301.808)
+Progression : [   74;22105] (Error: 297.716)
+Progression : [   75;22105] (Error: 293.733)
+Progression : [   76;22105] (Error: 289.855)
+Progression : [   77;22105] (Error: 286.078)
+Progression : [   78;22105] (Error: 282.397)
+Progression : [   79;22105] (Error: 278.81)
+Optimization: 22104
+Progression : [   80;22104] (Error: 275.3)
+Progression : [   81;22104] (Error: 271.889)
+Progression : [   82;22104] (Error: 268.561)
+Progression : [   83;22104] (Error: 265.313)
+Progression : [   84;22104] (Error: 262.143)
+Progression : [   85;22104] (Error: 259.047)
+Progression : [   86;22104] (Error: 256.023)
+Progression : [   87;22104] (Error: 253.069)
+Progression : [   88;22104] (Error: 250.182)
+Progression : [   89;22104] (Error: 247.36)
+Progression : [   90;22104] (Error: 244.6)
+Progression : [   91;22104] (Error: 241.901)
+Optimization: 22102
+Progression : [   92;22102] (Error: 239.239)
+Progression : [   93;22102] (Error: 236.656)
+Progression : [   94;22102] (Error: 234.128)
+Progression : [   96;22102] (Error: 229.229)
+Progression : [   97;22102] (Error: 226.856)
+Progression : [   98;22102] (Error: 224.531)
+Progression : [   99;22102] (Error: 222.253)
+Progression : [  100;22102] (Error: 220.02)
+Progression : [  101;22102] (Error: 217.832)
+Progression : [  102;22102] (Error: 215.686)
+Progression : [  103;22102] (Error: 213.583)
+Progression : [  104;22102] (Error: 211.519)
+Progression : [  105;22102] (Error: 209.495)
+Progression : [  106;22102] (Error: 207.509)
+Progression : [  107;22102] (Error: 205.561)
+Progression : [  108;22102] (Error: 203.648)
+Progression : [  109;22102] (Error: 201.771)
+Progression : [  110;22102] (Error: 199.927)
+Progression : [  111;22102] (Error: 198.117)
+Progression : [  112;22102] (Error: 196.339)
+Progression : [  113;22102] (Error: 194.593)
+Progression : [  114;22102] (Error: 192.877)
+Progression : [  115;22102] (Error: 191.191)
+Progression : [  116;22102] (Error: 189.534)
+Progression : [  117;22102] (Error: 187.906)
+Progression : [  118;22102] (Error: 186.305)
+Progression : [  119;22102] (Error: 184.731)
+Progression : [  120;22102] (Error: 183.183)
+Progression : [  121;22102] (Error: 181.661)
+Progression : [  122;22102] (Error: 180.164)
+Progression : [  123;22102] (Error: 178.691)
+Progression : [  124;22102] (Error: 177.242)
+Progression : [  125;22102] (Error: 175.816)
+Progression : [  126;22102] (Error: 174.413)
+Progression : [  127;22102] (Error: 173.031)
+Progression : [  128;22102] (Error: 171.672)
+Progression : [  129;22102] (Error: 170.333)
+Progression : [  130;22102] (Error: 169.015)
+Progression : [  131;22102] (Error: 167.718)
+Progression : [  132;22102] (Error: 166.439)
+Progression : [  133;22102] (Error: 165.18)
+Progression : [  134;22102] (Error: 163.94)
+Progression : [  135;22102] (Error: 162.719)
+Progression : [  136;22102] (Error: 161.515)
+Progression : [  137;22102] (Error: 160.328)
+Progression : [  138;22102] (Error: 159.159)
+Progression : [  139;22102] (Error: 158.007)
+Progression : [  140;22102] (Error: 156.871)
+Progression : [  141;22102] (Error: 155.752)
+Progression : [  142;22102] (Error: 154.648)
+Progression : [  143;22102] (Error: 153.559)
+Progression : [  144;22102] (Error: 152.486)
+Progression : [  145;22102] (Error: 151.428)
+Progression : [  146;22102] (Error: 150.384)
+Progression : [  147;22102] (Error: 149.354)
+Progression : [  148;22102] (Error: 148.338)
+Progression : [  149;22102] (Error: 147.336)
+Progression : [  150;22102] (Error: 146.347)
+Progression : [  151;22102] (Error: 145.371)
+Progression : [  152;22102] (Error: 144.408)
+Progression : [  153;22102] (Error: 143.458)
+Progression : [  154;22102] (Error: 142.519)
+Progression : [  155;22102] (Error: 141.594)
+Progression : [  156;22102] (Error: 140.679)
+Progression : [  157;22102] (Error: 139.777)
+Progression : [  158;22102] (Error: 138.886)
+Progression : [  159;22102] (Error: 138.006)
+Progression : [  160;22102] (Error: 137.137)
+Progression : [  161;22102] (Error: 136.28)
+Progression : [  162;22102] (Error: 135.432)
+Progression : [  163;22102] (Error: 134.595)
+Progression : [  164;22102] (Error: 133.768)
+Progression : [  165;22102] (Error: 132.952)
+Progression : [  166;22102] (Error: 132.145)
+Progression : [  167;22102] (Error: 131.347)
+Progression : [  168;22102] (Error: 130.56)
+Progression : [  169;22102] (Error: 129.781)
+Progression : [  170;22102] (Error: 129.012)
+Progression : [  171;22102] (Error: 128.251)
+Progression : [  172;22102] (Error: 127.5)
+Progression : [  173;22102] (Error: 126.757)
+Progression : [  174;22102] (Error: 126.023)
+Progression : [  175;22102] (Error: 125.297)
+Progression : [  176;22102] (Error: 124.58)
+Progression : [  177;22102] (Error: 123.87)
+Progression : [  178;22102] (Error: 123.169)
+Progression : [  179;22102] (Error: 122.475)
+Progression : [  180;22102] (Error: 121.789)
+Progression : [  181;22102] (Error: 121.11)
+Progression : [  182;22102] (Error: 120.44)
+Progression : [  183;22102] (Error: 119.776)
+Progression : [  184;22102] (Error: 119.12)
+Progression : [  185;22102] (Error: 118.47)
+Progression : [  186;22102] (Error: 117.828)
+Progression : [  187;22102] (Error: 117.193)
+Progression : [  188;22102] (Error: 116.564)
+Progression : [  189;22102] (Error: 115.942)
+Progression : [  190;22102] (Error: 115.326)
+Progression : [  191;22102] (Error: 114.717)
+Progression : [  192;22102] (Error: 114.115)
+Progression : [  193;22102] (Error: 113.518)
+Progression : [  194;22102] (Error: 112.928)
+Progression : [  195;22102] (Error: 112.344)
+Progression : [  196;22102] (Error: 111.765)
+Progression : [  197;22102] (Error: 111.193)
+Progression : [  198;22102] (Error: 110.626)
+Progression : [  199;22102] (Error: 110.065)
+Progression : [  200;22102] (Error: 109.51)
+Progression : [  201;22102] (Error: 108.96)
+Progression : [  202;22102] (Error: 108.416)
+Progression : [  203;22102] (Error: 107.877)
+Progression : [  204;22102] (Error: 107.343)
+Progression : [  205;22102] (Error: 106.815)
+Progression : [  206;22102] (Error: 106.291)
+Progression : [  207;22102] (Error: 105.773)
+Progression : [  208;22102] (Error: 105.26)
+Progression : [  209;22102] (Error: 104.751)
+Progression : [  210;22102] (Error: 104.248)
+Progression : [  211;22102] (Error: 103.749)
+Progression : [  212;22102] (Error: 103.255)
+Progression : [  213;22102] (Error: 102.765)
+Progression : [  214;22102] (Error: 102.28)
+Progression : [  215;22102] (Error: 101.8)
+Progression : [  216;22102] (Error: 101.324)
+Progression : [  217;22102] (Error: 100.853)
+Progression : [  218;22102] (Error: 100.385)
+Progression : [  219;22102] (Error: 99.9224)
+Progression : [  220;22102] (Error: 99.4636)
+Progression : [  221;22102] (Error: 99.009)
+Progression : [  222;22102] (Error: 98.5586)
+Progression : [  223;22102] (Error: 98.1121)
+Progression : [  224;22102] (Error: 97.6696)
+Progression : [  225;22102] (Error: 97.2311)
+Progression : [  226;22102] (Error: 96.7965)
+Progression : [  227;22102] (Error: 96.3656)
+Progression : [  228;22102] (Error: 95.9386)
+Progression : [  229;22102] (Error: 95.5153)
+Progression : [  230;22102] (Error: 95.0957)
+Progression : [  231;22102] (Error: 94.6797)
+Progression : [  232;22102] (Error: 94.2672)
+Progression : [  233;22102] (Error: 93.8584)
+Progression : [  234;22102] (Error: 93.453)
+Progression : [  235;22102] (Error: 93.0511)
+Progression : [  236;22102] (Error: 92.6525)
+Progression : [  237;22102] (Error: 92.2574)
+Progression : [  238;22102] (Error: 91.8655)
+Progression : [  239;22102] (Error: 91.477)
+Progression : [  240;22102] (Error: 91.0917)
+Progression : [  241;22102] (Error: 90.7095)
+Progression : [  242;22102] (Error: 90.3306)
+Progression : [  243;22102] (Error: 89.9547)
+Progression : [  244;22102] (Error: 89.582)
+Progression : [  245;22102] (Error: 89.2122)
+Progression : [  246;22102] (Error: 88.8455)
+Progression : [  247;22102] (Error: 88.4818)
+Progression : [  248;22102] (Error: 88.121)
+Progression : [  249;22102] (Error: 87.7631)
+Progression : [  250;22102] (Error: 87.408)
+Progression : [  251;22102] (Error: 87.0558)
+Progression : [  252;22102] (Error: 86.7063)
+Progression : [  253;22102] (Error: 86.3597)
+Progression : [  254;22102] (Error: 86.0157)
+Progression : [  255;22102] (Error: 85.6745)
+Progression : [  256;22102] (Error: 85.3359)
+Progression : [  257;22102] (Error: 85)
+Progression : [  258;22102] (Error: 84.6667)
+Progression : [  259;22102] (Error: 84.3359)
+Progression : [  260;22102] (Error: 84.0077)
+Progression : [  261;22102] (Error: 83.682)
+Progression : [  262;22102] (Error: 83.3588)
+Progression : [  263;22102] (Error: 83.038)
+Progression : [  264;22102] (Error: 82.7197)
+Progression : [  265;22102] (Error: 82.4038)
+Progression : [  266;22102] (Error: 82.0902)
+Progression : [  267;22102] (Error: 81.779)
+Progression : [  268;22102] (Error: 81.4701)
+Progression : [  269;22102] (Error: 81.1636)
+Progression : [  270;22102] (Error: 80.8593)
+Progression : [  271;22102] (Error: 80.5572)
+Progression : [  272;22102] (Error: 80.2574)
+Progression : [  273;22102] (Error: 79.9597)
+Progression : [  274;22102] (Error: 79.6642)
+Progression : [  275;22102] (Error: 79.3709)
+Progression : [  276;22102] (Error: 79.0797)
+Progression : [  277;22102] (Error: 78.7906)
+Progression : [  278;22102] (Error: 78.5036)
+Progression : [  279;22102] (Error: 78.2186)
+Progression : [  280;22102] (Error: 77.9357)
+Progression : [  281;22102] (Error: 77.6548)
+Progression : [  282;22102] (Error: 77.3759)
+Progression : [  283;22102] (Error: 77.0989)
+Progression : [  284;22102] (Error: 76.8239)
+Progression : [  285;22102] (Error: 76.5509)
+Progression : [  286;22102] (Error: 76.2797)
+Progression : [  287;22102] (Error: 76.0105)
+Progression : [  288;22102] (Error: 75.7431)
+Progression : [  289;22102] (Error: 75.4775)
+Progression : [  290;22102] (Error: 75.2138)
+Progression : [  291;22102] (Error: 74.9519)
+Progression : [  292;22102] (Error: 74.6918)
+Progression : [  293;22102] (Error: 74.4334)
+Progression : [  294;22102] (Error: 74.1769)
+Progression : [  295;22102] (Error: 73.922)
+Progression : [  296;22102] (Error: 73.6689)
+Progression : [  297;22102] (Error: 73.4175)
+Progression : [  298;22102] (Error: 73.1678)
+Progression : [  299;22102] (Error: 72.9197)
+Progression : [  300;22102] (Error: 72.6733)
+Progression : [  301;22102] (Error: 72.4286)
+Progression : [  302;22102] (Error: 72.1854)
+Progression : [  303;22102] (Error: 71.9439)
+Progression : [  304;22102] (Error: 71.7039)
+Progression : [  305;22102] (Error: 71.4656)
+Progression : [  306;22102] (Error: 71.2288)
+Progression : [  307;22102] (Error: 70.9935)
+Progression : [  308;22102] (Error: 70.7597)
+Progression : [  309;22102] (Error: 70.5275)
+Progression : [  310;22102] (Error: 70.2968)
+Progression : [  311;22102] (Error: 70.0675)
+Progression : [  312;22102] (Error: 69.8397)
+Progression : [  313;22102] (Error: 69.6134)
+Progression : [  314;22102] (Error: 69.3885)
+Progression : [  315;22102] (Error: 69.1651)
+Progression : [  316;22102] (Error: 68.943)
+Progression : [  317;22102] (Error: 68.7224)
+Progression : [  318;22102] (Error: 68.5031)
+Progression : [  319;22102] (Error: 68.2853)
+Progression : [  320;22102] (Error: 68.0687)
+Progression : [  321;22102] (Error: 67.8536)
+Progression : [  322;22102] (Error: 67.6398)
+Progression : [  323;22102] (Error: 67.4272)
+Progression : [  324;22102] (Error: 67.216)
+Progression : [  325;22102] (Error: 67.0062)
+Progression : [  326;22102] (Error: 66.7975)
+Progression : [  327;22102] (Error: 66.5902)
+Progression : [  328;22102] (Error: 66.3841)
+Progression : [  329;22102] (Error: 66.1793)
+Progression : [  330;22102] (Error: 65.9758)
+Progression : [  331;22102] (Error: 65.7734)
+Progression : [  332;22102] (Error: 65.5723)
+Progression : [  333;22102] (Error: 65.3724)
+Progression : [  334;22102] (Error: 65.1737)
+Progression : [  335;22102] (Error: 64.9761)
+Progression : [  336;22102] (Error: 64.7798)
+Progression : [  337;22102] (Error: 64.5846)
+Progression : [  338;22102] (Error: 64.3905)
+Progression : [  339;22102] (Error: 64.1976)
+Progression : [  340;22102] (Error: 64.0059)
+Progression : [  341;22102] (Error: 63.8152)
+Progression : [  342;22102] (Error: 63.6257)
+Progression : [  343;22102] (Error: 63.4373)
+Progression : [  344;22102] (Error: 63.25)
+Progression : [  345;22102] (Error: 63.0638)
+Progression : [  346;22102] (Error: 62.8786)
+Progression : [  347;22102] (Error: 62.6945)
+Progression : [  348;22102] (Error: 62.5115)
+Progression : [  349;22102] (Error: 62.3295)
+Progression : [  350;22102] (Error: 62.1486)
+Progression : [  351;22102] (Error: 61.9687)
+Progression : [  352;22102] (Error: 61.7898)
+Progression : [  353;22102] (Error: 61.6119)
+Progression : [  354;22102] (Error: 61.435)
+Progression : [  355;22102] (Error: 61.2592)
+Progression : [  356;22102] (Error: 61.0843)
+Progression : [  357;22102] (Error: 60.9104)
+Progression : [  358;22102] (Error: 60.7374)
+Progression : [  359;22102] (Error: 60.5655)
+Progression : [  360;22102] (Error: 60.3944)
+Progression : [  361;22102] (Error: 60.2244)
+Progression : [  362;22102] (Error: 60.0552)
+Progression : [  363;22102] (Error: 59.8871)
+Progression : [  364;22102] (Error: 59.7198)
+Progression : [  365;22102] (Error: 59.5534)
+Progression : [  366;22102] (Error: 59.388)
+Progression : [  367;22102] (Error: 59.2234)
+Progression : [  368;22102] (Error: 59.0598)
+Progression : [  369;22102] (Error: 58.897)
+Progression : [  370;22102] (Error: 58.7351)
+Progression : [  371;22102] (Error: 58.5741)
+Progression : [  372;22102] (Error: 58.414)
+Progression : [  373;22102] (Error: 58.2547)
+Progression : [  374;22102] (Error: 58.0963)
+Progression : [  375;22102] (Error: 57.9387)
+Progression : [  376;22102] (Error: 57.7819)
+Progression : [  377;22102] (Error: 57.626)
+Progression : [  378;22102] (Error: 57.4709)
+Progression : [  379;22102] (Error: 57.3166)
+Progression : [  380;22102] (Error: 57.1632)
+Progression : [  381;22102] (Error: 57.0105)
+Progression : [  382;22102] (Error: 56.8586)
+Progression : [  383;22102] (Error: 56.7076)
+Progression : [  384;22102] (Error: 56.5573)
+Progression : [  385;22102] (Error: 56.4078)
+Progression : [  386;22102] (Error: 56.2591)
+Progression : [  387;22102] (Error: 56.1111)
+Progression : [  388;22102] (Error: 55.9639)
+Progression : [  389;22102] (Error: 55.8175)
+Progression : [  390;22102] (Error: 55.6718)
+Progression : [  391;22102] (Error: 55.5269)
+Progression : [  392;22102] (Error: 55.3827)
+Progression : [  393;22102] (Error: 55.2392)
+Progression : [  394;22102] (Error: 55.0964)
+Progression : [  395;22102] (Error: 54.9544)
+Progression : [  396;22102] (Error: 54.8131)
+Progression : [  397;22102] (Error: 54.6725)
+Progression : [  398;22102] (Error: 54.5327)
+Progression : [  399;22102] (Error: 54.3935)
+Progression : [  400;22102] (Error: 54.255)
+Progression : [  401;22102] (Error: 54.1172)
+Progression : [  402;22102] (Error: 53.9801)
+Progression : [  403;22102] (Error: 53.8437)
+Progression : [  404;22102] (Error: 53.7079)
+Progression : [  405;22102] (Error: 53.5728)
+Progression : [  406;22102] (Error: 53.4384)
+Progression : [  407;22102] (Error: 53.3047)
+Progression : [  408;22102] (Error: 53.1716)
+Progression : [  409;22102] (Error: 53.0391)
+Progression : [  410;22102] (Error: 52.9073)
+Progression : [  411;22102] (Error: 52.7762)
+Progression : [  412;22102] (Error: 52.6456)
+Progression : [  413;22102] (Error: 52.5157)
+Progression : [  414;22102] (Error: 52.3865)
+Progression : [  415;22102] (Error: 52.2578)
+Progression : [  416;22102] (Error: 52.1298)
+Progression : [  417;22102] (Error: 52.0024)
+Progression : [  418;22102] (Error: 51.8756)
+Progression : [  419;22102] (Error: 51.7494)
+Progression : [  420;22102] (Error: 51.6238)
+Progression : [  421;22102] (Error: 51.4988)
+Progression : [  422;22102] (Error: 51.3744)
+Progression : [  423;22102] (Error: 51.2506)
+Progression : [  424;22102] (Error: 51.1274)
+Progression : [  425;22102] (Error: 51.0047)
+Progression : [  426;22102] (Error: 50.8826)
+Progression : [  427;22102] (Error: 50.7611)
+Progression : [  428;22102] (Error: 50.6402)
+Progression : [  429;22102] (Error: 50.5198)
+Progression : [  430;22102] (Error: 50.4)
+Progression : [  431;22102] (Error: 50.2807)
+Progression : [  432;22102] (Error: 50.162)
+Progression : [  433;22102] (Error: 50.0439)
+Progression : [  434;22102] (Error: 49.9263)
+Progression : [  435;22102] (Error: 49.8092)
+Progression : [  436;22102] (Error: 49.6927)
+Progression : [  437;22102] (Error: 49.5767)
+Progression : [  438;22102] (Error: 49.4612)
+Progression : [  439;22102] (Error: 49.3462)
+Progression : [  440;22102] (Error: 49.2318)
+Progression : [  441;22102] (Error: 49.1179)
+Progression : [  442;22102] (Error: 49.0045)
+Progression : [  443;22102] (Error: 48.8916)
+Progression : [  444;22102] (Error: 48.7793)
+Progression : [  445;22102] (Error: 48.6674)
+Progression : [  446;22102] (Error: 48.5561)
+Progression : [  447;22102] (Error: 48.4452)
+Progression : [  448;22102] (Error: 48.3348)
+Progression : [  449;22102] (Error: 48.2249)
+Progression : [  450;22102] (Error: 48.1156)
+Progression : [  451;22102] (Error: 48.0067)
+Progression : [  452;22102] (Error: 47.8982)
+Progression : [  453;22102] (Error: 47.7903)
+Progression : [  454;22102] (Error: 47.6828)
+Progression : [  455;22102] (Error: 47.5758)
+Progression : [  456;22102] (Error: 47.4693)
+Progression : [  457;22102] (Error: 47.3632)
+Progression : [  458;22102] (Error: 47.2576)
+Progression : [  459;22102] (Error: 47.1525)
+Progression : [  460;22102] (Error: 47.0478)
+Progression : [  461;22102] (Error: 46.9436)
+Progression : [  462;22102] (Error: 46.8398)
+Progression : [  463;22102] (Error: 46.7365)
+Progression : [  464;22102] (Error: 46.6336)
+Progression : [  465;22102] (Error: 46.5312)
+Progression : [  466;22102] (Error: 46.4292)
+Progression : [  467;22102] (Error: 46.3276)
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 126+
+  Optimum    : unknown
+Optimization : 22102
+Bounds       : [467;22102]
+Calls        : 1
+Time         : 3600.068s (Solving: 3600.04s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 71987.768s
+Threads      : 20       (Winner: 20)
+elapsed time for 2-Insertions_3-k_8 was 3600.200335425 seconds

@@ -1,0 +1,114 @@
+clingo version 5.2.2
+Reading from ...loring/instances/2-Insertions_4-k_8.lp ...
+Solving...
+Optimization: 17414192
+Optimization: 17033888
+Optimization: 16938117
+Optimization: 16866777
+Optimization: 16426267
+Optimization: 16370152
+Optimization: 16320040
+Optimization: 15926056
+Optimization: 15847000
+Optimization: 15453016
+Optimization: 15317453
+Optimization: 15317314
+Optimization: 15307992
+Optimization: 15165642
+Optimization: 15089034
+Optimization: 15046778
+Optimization: 14992846
+Optimization: 14972830
+Optimization: 14970508
+Optimization: 14957901
+Optimization: 14937885
+Optimization: 14936731
+Optimization: 14893491
+Optimization: 8849489
+Optimization: 8593463
+Optimization: 8584091
+Optimization: 8435555
+Optimization: 8391251
+Optimization: 8388611
+Optimization: 8383583
+Optimization: 8279855
+Optimization: 8252591
+Optimization: 8221151
+Optimization: 8218511
+Optimization: 8218466
+Optimization: 8211241
+Optimization: 8187462
+Optimization: 8172174
+Optimization: 8128956
+Optimization: 7603598
+Optimization: 7587057
+Optimization: 7579412
+Optimization: 7520660
+Optimization: 7508564
+Optimization: 7508289
+Optimization: 7507127
+Optimization: 7506852
+Optimization: 7493890
+Optimization: 7451078
+Optimization: 7450803
+Optimization: 7449768
+Optimization: 7446783
+Optimization: 7446388
+Optimization: 7445346
+Optimization: 7444951
+Optimization: 7444258
+Optimization: 7415751
+Optimization: 7415391
+Optimization: 7414716
+Optimization: 7414356
+Optimization: 7413740
+Optimization: 7358559
+Optimization: 7327969
+Optimization: 7318369
+Optimization: 7316881
+Optimization: 7311463
+Optimization: 7294069
+Optimization: 7291069
+Optimization: 7285749
+Optimization: 7283529
+Optimization: 7283477
+Progression : [     48;7283477] (Error: 151738)
+Progression : [     62;7283477] (Error: 117474)
+Optimization: 7281396
+Optimization: 7280476
+Optimization: 7278758
+Optimization: 7276136
+Optimization: 7273330
+Optimization: 7271036
+Optimization: 7267981
+Optimization: 7267266
+Optimization: 7266706
+Optimization: 7264851
+Optimization: 7263801
+Optimization: 7262547
+Optimization: 7261497
+Optimization: 7261467
+Optimization: 7260387
+Progression : [     69;7260387] (Error: 105222)
+Progression : [     72;7260387] (Error: 100838)
+Progression : [     77;7260387] (Error: 94289.7)
+Progression : [    157;7260387] (Error: 46243.5)
+Progression : [    387;7260387] (Error: 18759.7)
+Optimization: 7259082
+Optimization: 7256754
+Optimization: 7256094
+Optimization: 7255062
+Optimization: 7253852
+Optimization: 7253274
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 92+
+  Optimum    : unknown
+Optimization : 7253274
+Bounds       : [387;7253274]
+Calls        : 1
+Time         : 3600.364s (Solving: 3600.12s 1st Model: 0.15s Unsat: 0.00s)
+CPU Time     : 71980.557s
+Threads      : 20       (Winner: 20)
+elapsed time for 2-Insertions_4-k_8 was 3601.126634410 seconds

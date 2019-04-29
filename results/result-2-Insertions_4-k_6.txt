@@ -1,0 +1,137 @@
+clingo version 5.2.2
+Reading from ...loring/instances/2-Insertions_4-k_6.lp ...
+Solving...
+Optimization: 14433783
+Optimization: 14280629
+Optimization: 14171333
+Optimization: 14081397
+Optimization: 14034453
+Optimization: 13675937
+Optimization: 13675277
+Optimization: 13674625
+Optimization: 13648781
+Optimization: 13644225
+Optimization: 13536021
+Optimization: 13534785
+Optimization: 13467477
+Optimization: 13466817
+Optimization: 13440321
+Optimization: 13427326
+Optimization: 13425238
+Optimization: 12282778
+Optimization: 12225692
+Optimization: 12108847
+Optimization: 12012403
+Optimization: 11982511
+Optimization: 11613161
+Optimization: 11497715
+Optimization: 11349467
+Optimization: 11270267
+Optimization: 11159247
+Optimization: 11049767
+Optimization: 10998771
+Progression : [      57;10998771] (Error: 192960)
+Optimization: 10941167
+Optimization: 10936349
+Optimization: 10934963
+Optimization: 10890066
+Optimization: 10752246
+Optimization: 10737062
+Optimization: 10736670
+Optimization: 10167251
+Optimization: 10094963
+Optimization: 10029926
+Optimization: 10006088
+Optimization: 10000176
+Optimization: 9993463
+Optimization: 9970281
+Progression : [    568;9970281] (Error: 17552.3)
+Optimization: 9939498
+Progression : [    624;9939498] (Error: 15927.7)
+Progression : [    636;9939498] (Error: 15627.1)
+Optimization: 9939103
+Optimization: 9938726
+Optimization: 9938237
+Optimization: 9937617
+Optimization: 9935633
+Optimization: 9935203
+Progression : [    700;9935203] (Error: 14192.1)
+Optimization: 9923115
+Optimization: 9920420
+Progression : [    703;9920420] (Error: 14110.6)
+Optimization: 9917269
+Optimization: 9916389
+Progression : [    708;9916389] (Error: 14005.2)
+Optimization: 9907534
+Optimization: 9905646
+Optimization: 9897612
+Optimization: 9897036
+Optimization: 9896374
+Optimization: 9895638
+Optimization: 9886452
+Progression : [    752;9886452] (Error: 13145.9)
+Optimization: 9885822
+Optimization: 9884000
+Optimization: 9882920
+Optimization: 9875287
+Optimization: 9874130
+Optimization: 9873050
+Optimization: 9872074
+Optimization: 9867596
+Optimization: 9866804
+Progression : [    941;9866804] (Error: 10484.4)
+Progression : [    947;9866804] (Error: 10418)
+Progression : [   1055;9866804] (Error: 9351.42)
+Progression : [   1067;9866804] (Error: 9246.24)
+Optimization: 9866202
+Progression : [   1076;9866202] (Error: 9168.33)
+Progression : [   1196;9866202] (Error: 8248.33)
+Progression : [   1346;9866202] (Error: 7329.02)
+Progression : [   1353;9866202] (Error: 7291.09)
+Optimization: 9866029
+Progression : [   1487;9866029] (Error: 6633.85)
+Progression : [   1511;9866029] (Error: 6528.47)
+Optimization: 9859954
+Optimization: 9859198
+Optimization: 9858144
+Progression : [   1695;9858144] (Error: 5815.01)
+Progression : [   1749;9858144] (Error: 5635.45)
+Progression : [   2194;9858144] (Error: 4492.23)
+Progression : [   2201;9858144] (Error: 4477.94)
+Optimization: 9856731
+Optimization: 9855541
+Optimization: 9855310
+Optimization: 9855285
+Progression : [   2225;9855285] (Error: 4428.34)
+Optimization: 9852991
+Optimization: 9852871
+Optimization: 9852564
+Optimization: 9852456
+Optimization: 9852438
+Optimization: 9852099
+Optimization: 9852057
+Optimization: 9851997
+Optimization: 9851859
+Optimization: 9851844
+Optimization: 9851624
+Optimization: 9851567
+Optimization: 9851400
+Optimization: 9851374
+Optimization: 9851330
+Optimization: 9851024
+Optimization: 9850808
+Optimization: 9850804
+Optimization: 9850503
+Optimization: 9850419
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 99+
+  Optimum    : unknown
+Optimization : 9850419
+Bounds       : [2225;9850419]
+Calls        : 1
+Time         : 3600.133s (Solving: 3599.91s 1st Model: 0.13s Unsat: 0.00s)
+CPU Time     : 71980.624s
+Threads      : 20       (Winner: 20)
+elapsed time for 2-Insertions_4-k_6 was 3600.870184811 seconds

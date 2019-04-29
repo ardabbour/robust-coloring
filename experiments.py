@@ -84,6 +84,8 @@ def generate_instances():
 
     instances = [os.path.join('selection', f)
                  for f in os.listdir('selection') if f.endswith('.col')]
+
+    data = []
     for _, instance in enumerate(instances):
         graph_name = re.search('selection/(.+?).col', instance).group(1)
         color_no_pair = ig.K_VALUES[graph_name]
@@ -91,9 +93,19 @@ def generate_instances():
         costs_to_write = ig.get_costs(max_vertex, edges, rand=False, seed=None,
                                       max_cost=10, const_cost=False,
                                       prod_cost=True, max_vertices=0)
+        data.append([graph_name, max_vertex, len(edges), len(costs_to_write),
+                     color_no_pair[0], None, None,
+                     color_no_pair[1], None, None])
         for no_of_colors in color_no_pair:
             ig.write_result('instances/{}-k_{}.lp'.format(graph_name, no_of_colors),
                             no_of_colors, max_vertex, edges, costs_to_write)
+
+    columns = ['name', '#vertices', '#edges','#nonedges',
+               'k1', 'penalty1', 'time1',
+               'k2', 'penalty2', 'time2']
+    empty_table = pd.DataFrame(columns=columns,data=data)
+    empty_table = empty_table.sort_values('name')
+    empty_table.to_csv('empty_table.csv', index=False)
 
 
 if __name__ == "__main__":
